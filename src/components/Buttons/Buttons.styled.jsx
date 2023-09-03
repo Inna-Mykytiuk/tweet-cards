@@ -16,25 +16,6 @@ export const ButtonFollows = styled.button`
   box-shadow: 0px 3.43693px 3.43693px 0px rgba(0, 0, 0, 0.25);
 `;
 
-// export const ButtonFilters = styled.button`
-//   position: relative;
-//   background-color: transparent;
-//   border: none;
-//   padding: 12px;
-//   font-weight: 400;
-//   font-size: 20px;
-//   line-height: 1.2;
-//   /* text-transform: uppercase; */
-//   color: #fff;
-//   cursor: pointer;
-//   text-shadow: 2px 2px 5px #000000;
-//   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   &:hover {
-//     color: #ffffff;
-
-//   }
-// `;
-
 export const BtnFilter = styled.div`
 display: flex;
 flex-direction: column;

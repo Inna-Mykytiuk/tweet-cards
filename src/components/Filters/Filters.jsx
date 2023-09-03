@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setStatusFilter } from 'redux/filtersSlice';
 import { selectStatusFilter } from 'redux/usersSelectors';
 
-export const StatusFilter = () => {
+const StatusFilter = () => {
   const dispatch = useDispatch();
   const filter = useSelector(selectStatusFilter);
 
@@ -32,3 +32,5 @@ export const StatusFilter = () => {
     </>
   );
 };
+
+export default StatusFilter;

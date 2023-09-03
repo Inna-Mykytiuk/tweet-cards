@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import  StatusFilter  from 'components/Filters/Filters';
 import {
   Nav,
   NavList,
@@ -11,9 +12,8 @@ import {
   ButtonFilters,
 } from './Navigation.styled';
 import { useLocation } from 'react-router-dom';
-import { StatusFilter } from 'components/Filters/Filters';
 
-export const Navigation = () => {
+const Navigation = () => {
   const location = useLocation();
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
@@ -47,3 +47,5 @@ export const Navigation = () => {
     </Nav>
   );
 };
+
+export default Navigation;

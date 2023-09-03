@@ -1,7 +1,7 @@
-import { Card } from '../Card/Card';
+import Card from '../Card/Card';
 import { List } from './ListCards.styled';
 
-export const ListCards = ({ items }) => {
+const ListCards = ({ items }) => {
   return (
     <List>
       {items?.map(item => (
@@ -18,3 +18,5 @@ export const ListCards = ({ items }) => {
     </List>
   );
 };
+
+export default ListCards;

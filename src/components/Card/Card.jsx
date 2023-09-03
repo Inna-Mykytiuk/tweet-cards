@@ -12,8 +12,7 @@ import {
   Tweets,
 } from './Card.styled';
 
-
-export const Card = ({ avatar, tweets, followers, user, id, isFollower }) => {
+const Card = ({ avatar, tweets, followers, user, id, isFollower }) => {
   const dispatch = useDispatch();
   const oneUser = { avatar, tweets, user, id };
 
@@ -58,3 +57,5 @@ export const Card = ({ avatar, tweets, followers, user, id, isFollower }) => {
     </Item>
   );
 };
+
+export default Card;

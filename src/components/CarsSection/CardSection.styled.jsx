@@ -23,6 +23,3 @@ export const Warning = styled.h3`
   color: #373737;
   background-color: #ff9900;
 `;
-
-
-

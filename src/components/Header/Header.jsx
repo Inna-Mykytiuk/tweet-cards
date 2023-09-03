@@ -1,5 +1,4 @@
-import { Navigation } from 'components/Navigation/Navigation'
-import React from 'react'
+import Navigation from 'components/Navigation/Navigation'
 import { AppBar } from './Header.styled'
 import Container from 'components/Container/Container'
 
