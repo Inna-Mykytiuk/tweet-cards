@@ -17,9 +17,9 @@ export const ButtonFollows = styled.button`
 `;
 
 export const BtnFilter = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: transparent;
   border: none;
   border-radius: 10px;
@@ -28,7 +28,7 @@ justify-content: flex-start;
   font-size: 18px;
   line-height: 1.2;
   /* text-transform: uppercase; */
-  color: #ffffff;
+  color: #99bfc8;
   text-shadow: 2px 2px 5px #000000;
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);

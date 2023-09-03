@@ -16,7 +16,6 @@ export const NavList = styled.ul`
   align-items: center;
   margin-right: auto;
   gap: 20px;
-
 `;
 
 export const NavListItem = styled.li`
@@ -48,7 +47,6 @@ export const ButtonFilters = styled.button`
   position: relative;
   background-color: transparent;
   border: none;
-  padding: 12px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -59,7 +57,6 @@ export const ButtonFilters = styled.button`
   text-shadow: 2px 2px 5px #000000;
   &:hover {
     color: #ffffff;
-
   }
 `;
 
@@ -78,10 +75,9 @@ export const Link = styled(NavLink)`
 
   text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px,
     rgba(0, 0, 0, 0.5) 1px 1px 1px;
-    text-shadow: 2px 2px 5px #1d1e26;
+  text-shadow: 2px 2px 5px #1d1e26;
 
-
-  svg{
+  svg {
     fill: #99bfc8;
   }
 
@@ -90,11 +86,11 @@ export const Link = styled(NavLink)`
   &:focus {
     color: #fff;
 
-    svg{
-    fill: white;
-    border: 1px solid #fff;
-    box-shadow: rgb(231 222 221) 0px 0px 15px;
-  }
+    svg {
+      fill: white;
+      border: 1px solid #fff;
+      box-shadow: rgb(231 222 221) 0px 0px 15px;
+    }
   }
 `;
 
@@ -112,7 +108,7 @@ export const HomeIcon = styled(IoMdHome)`
   align-items: center;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: rgb(231 222 221) 0px 0px 15px;
-`
+`;
 export const GoBackIcon = styled(FaArrowLeft)`
   width: 20px;
   height: 20px;
@@ -127,5 +123,4 @@ export const GoBackIcon = styled(FaArrowLeft)`
   align-items: center;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: rgb(231 222 221) 0px 0px 15px;
-`
-
+`;
