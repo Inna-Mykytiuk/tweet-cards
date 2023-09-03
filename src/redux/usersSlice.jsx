@@ -32,8 +32,6 @@ export const usersSlice = createSlice({
         state.isLoading = false;
         state.error = null;
         state.items = action.payload;
-        // state.page = 1;
-        // state.limit = 3;
       })
       .addCase(fetchUsers.rejected, handleRejected)
 
