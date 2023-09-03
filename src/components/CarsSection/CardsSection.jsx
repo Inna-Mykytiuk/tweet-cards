@@ -102,6 +102,7 @@ import {
 } from 'redux/usersSelectors';
 import { selectStatusFilter } from 'redux/usersSelectors';
 import { statusFilters } from 'redux/statusFilters';
+import NoFollowers from 'components/NoFollowers/NoFollowers';
 
 
 export const CardsSection = () => {
@@ -157,7 +158,7 @@ export const CardsSection = () => {
           <LoadMoreBtn onClick={onLoadMore} />
         )}
         {filter === statusFilters.following && filteredUsers.length === 0 && (
-          <p>Треба зафоловити когось.</p>
+          <NoFollowers />
         )}
       </SectionContainer>
     </>
