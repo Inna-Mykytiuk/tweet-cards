@@ -1,6 +1,15 @@
-
 import { useState } from 'react';
-import { Nav, NavList, Link, HomeIcon, NavListItem, GoBAckLink, GoBackIcon, WrapperBtnFilter, ButtonFilters } from './Navigation.styled';
+import {
+  Nav,
+  NavList,
+  Link,
+  HomeIcon,
+  NavListItem,
+  GoBAckLink,
+  GoBackIcon,
+  WrapperBtnFilter,
+  ButtonFilters,
+} from './Navigation.styled';
 import { useLocation } from 'react-router-dom';
 import { StatusFilter } from 'components/Filters/Filters';
 
@@ -13,7 +22,7 @@ export const Navigation = () => {
       <NavList>
         <NavListItem>
           <Link to="/">
-          <HomeIcon/>
+            <HomeIcon />
           </Link>
         </NavListItem>
         <NavListItem>
@@ -22,18 +31,19 @@ export const Navigation = () => {
       </NavList>
       {location.pathname === '/tweets' && (
         <>
-        <ButtonFilters onClick={() => setIsFilterOpen(!isFilterOpen)}>
-        Filters
-        <WrapperBtnFilter>{isFilterOpen && <StatusFilter />}</WrapperBtnFilter>
-      </ButtonFilters>
+          <ButtonFilters onClick={() => setIsFilterOpen(!isFilterOpen)}>
+            Filters
+            <WrapperBtnFilter>
+              {isFilterOpen && <StatusFilter />}
+            </WrapperBtnFilter>
+          </ButtonFilters>
           <GoBAckLink>
             <Link to="/">
-            <GoBackIcon/>
+              <GoBackIcon />
             </Link>
-
           </GoBAckLink>
         </>
-        )}
+      )}
     </Nav>
   );
 };

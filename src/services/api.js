@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://6491febd2f2c7ee6c2c9450f.mockapi.io/api/v1';
+axios.defaults.baseURL = 'https://64563e0e2e41ccf1691779b2.mockapi.io/api/cards';
 export const getAllUsers = async page => {
   const { data } = await axios.get('/users', {
     params: { page, limit: 3 },

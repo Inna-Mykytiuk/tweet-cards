@@ -25,11 +25,12 @@ export const HomeTextMain = styled.h1`
   color: #fff;
   font-weight: bold;
   font-size: 56px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 `;
 
 export const HomeTextSecondary = styled.h2`
-  color: #fff;
-  font-weight: 500;
+  color: #cedfe3;
+  font-weight: 400;
   font-size: 24px;
+  line-height: 1.8;
 `;
