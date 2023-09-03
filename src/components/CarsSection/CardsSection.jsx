@@ -4,7 +4,7 @@ import Loader from '../Loader/Loader';
 import {
   CardsContainer,
   SectionContainer,
-  Warning,
+  // Warning,
 } from './CardSection.styled';
 import { statusFilters } from '../../redux/statusFilters';
 import { useEffect, useState } from 'react';
