@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+const smallDeviceMediaQuery = '@media (max-width: 600px)';
 
 export const HomePage = styled.div`
   width: 100%;
@@ -19,6 +20,10 @@ export const HomeContainer = styled.div`
   gap: 30px;
   width: 600px;
   margin-left: auto;
+
+  ${smallDeviceMediaQuery} {
+    width: 320px;
+  }
 `;
 
 export const HomeTextMain = styled.h1`
@@ -26,6 +31,10 @@ export const HomeTextMain = styled.h1`
   font-weight: bold;
   font-size: 56px;
   margin-bottom: 40px;
+
+  ${smallDeviceMediaQuery} {
+    font-size: 40px;
+  }
 `;
 
 export const HomeTextSecondary = styled.h2`
@@ -33,4 +42,8 @@ export const HomeTextSecondary = styled.h2`
   font-weight: 400;
   font-size: 24px;
   line-height: 1.8;
+
+  ${smallDeviceMediaQuery} {
+    font-size: 20px; /* Змінений розмір шрифта для маленьких пристроїв */
+  }
 `;
