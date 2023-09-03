@@ -104,9 +104,9 @@ export const HomeIcon = styled(IoMdHome)`
   margin: 0;
   padding: 10px;
 
-  color: #5cd3a8;
+  color: #99bfc8;
   border-radius: 50%;
-  border: 1px solid #5cd3a8;
+  border: 1px solid #99bfc8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,9 +119,9 @@ export const GoBackIcon = styled(FaArrowLeft)`
   margin: 0;
   padding: 10px;
 
-  color: #5cd3a8;
+  color: #99bfc8;
   border-radius: 50%;
-  border: 1px solid #5cd3a8;
+  border: 1px solid #99bfc8;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -9,12 +9,13 @@ const Loader = () => {
       height="80"
       width="80"
       radius="9"
-      color="#5736A3"
+      color="#fff"
       ariaLabel="three-dots-loading"
       wrapperStyle={{
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
+        // marginTop: '170px',
       }}
       visible
     />
