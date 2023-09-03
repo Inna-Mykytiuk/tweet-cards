@@ -16,6 +16,7 @@ export const Item = styled.li`
     );
   background-repeat: no-repeat;
   border-radius: 20px;
+
 `;
 
 export const Avatar = styled.img`

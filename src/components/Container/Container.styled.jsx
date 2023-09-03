@@ -17,6 +17,6 @@ export const MainContainer = styled.div`
 
   ${smallDeviceMediaQuery} {
     padding: 0 10px;
-    max-width: 700px;
+    max-width: 380px;
   }
 `;
