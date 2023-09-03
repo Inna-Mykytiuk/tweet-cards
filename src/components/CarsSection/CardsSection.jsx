@@ -41,6 +41,16 @@ export const CardsSection = () => {
     }
   };
 
+  // const onLoadMore = () => {
+  //   const newLimit = limit + 3;
+  //   dispatch(setPagination({ page, limit: newLimit }));
+
+  //   // Перевіряємо, чи кількість карток досягла 21
+  //   if (newLimit >= 24) {
+  //     setShowBtn(false);
+  //   }
+  // };
+
   const onSelectFilter = (users, filter) => {
     switch (filter) {
       case statusFilters.follow:
@@ -63,10 +73,8 @@ export const CardsSection = () => {
           <ListCards items={filteredUsers} />
           {isLoading && <Loader />}
         </CardsContainer>
-        {showBtn ? (
+        {showBtn && (
           <LoadMoreBtn onClick={onLoadMore} />
-        ) : (
-          <Warning>Sorry this is the end!</Warning>
         )}
       </SectionContainer>
     </>
