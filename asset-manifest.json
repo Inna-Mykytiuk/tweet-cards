@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tweet-cards/static/css/main.0b8f32d3.css",
+    "main.js": "/tweet-cards/static/js/main.731e90a2.js",
+    "static/js/815.07d79c78.chunk.js": "/tweet-cards/static/js/815.07d79c78.chunk.js",
+    "static/js/788.af5448f2.chunk.js": "/tweet-cards/static/js/788.af5448f2.chunk.js",
+    "static/media/TopCard.png": "/tweet-cards/static/media/TopCard.032662a2a907475127d7.png",
+    "index.html": "/tweet-cards/index.html",
+    "main.0b8f32d3.css.map": "/tweet-cards/static/css/main.0b8f32d3.css.map",
+    "main.731e90a2.js.map": "/tweet-cards/static/js/main.731e90a2.js.map",
+    "815.07d79c78.chunk.js.map": "/tweet-cards/static/js/815.07d79c78.chunk.js.map",
+    "788.af5448f2.chunk.js.map": "/tweet-cards/static/js/788.af5448f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b8f32d3.css",
+    "static/js/main.731e90a2.js"
+  ]
+}
