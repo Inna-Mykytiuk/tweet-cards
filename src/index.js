@@ -7,11 +7,11 @@ import { store } from 'redux/store';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter basename="/tweet-cards">
         <App />
       </BrowserRouter>
     </Provider>
-  // </React.StrictMode>
+    </React.StrictMode>
 );
