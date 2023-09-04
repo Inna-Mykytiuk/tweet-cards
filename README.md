@@ -23,6 +23,7 @@ Try TweetDeck Connect Today
 
 Discover the future of tweet management and engagement. Try TweetDeck Connect today and elevate your Tweets experience to new heights. Enjoy a user-friendly interface, advanced filtering, and continuous access to tweet cards—all in one powerful application.
 
-![preview](https://github.com/Inna-Mykytiuk/Food-app/blob/main/assets/tweet-cards.jpg)
+![preview](https://github.com/Inna-Mykytiuk/tweet-cards/blob/main/assets/tweets.jpg)
+
 
 
