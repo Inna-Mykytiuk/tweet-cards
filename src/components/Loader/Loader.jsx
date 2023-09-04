@@ -15,7 +15,6 @@ const Loader = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        // marginTop: '170px',
       }}
       visible
     />

@@ -1,12 +1,6 @@
 import styled from '@emotion/styled';
-const breakpoints = {
-  xs: '320px',
-  s: '375px',
-  m: '768px',
-  l: '1440px',
-};
 
-const smallDeviceMediaQuery = `@media (min-width: ${breakpoints.m})`;
+const smallDeviceMediaQuery = `@media (min-width: 768px)`;
 
 export const AppBar = styled.header`
   padding: 20px 0;
