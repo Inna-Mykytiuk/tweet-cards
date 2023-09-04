@@ -1,13 +1,7 @@
 import styled from '@emotion/styled';
 
-const breakpoints = {
-  xs: '320px',
-  s: '375px',
-  m: '768px',
-  l: '1440px',
-};
-
-const smallDeviceMediaQuery = `@media (max-width: ${breakpoints.m})`;
+const smallDeviceMediaQuery = `@media (max-width: 768px)`;
+const bigDeviceMediaQuery = '@media (max-width: 1280px)';
 
 export const MainContainer = styled.div`
   width: 100%;
@@ -15,6 +9,11 @@ export const MainContainer = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 
+
+  ${bigDeviceMediaQuery} {
+    padding: 0 10px;
+    max-width: 800px;
+  }
   ${smallDeviceMediaQuery} {
     padding: 0 10px;
     max-width: 380px;
